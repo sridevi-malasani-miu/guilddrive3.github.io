@@ -42,7 +42,7 @@ function findTitles() {
  * @returns {undefined} no return
  * Event handler for Add book button.  Creates and adds book to the library
  */
-function addBook(){
-    const title = document.getElementById("title"); //retrieves the book title from the title textbox
+function addBook(title,author,libraryID){
+   // const title = document.getElementById("title"); //retrieves the book title from the title textbox
     //finish the implementation -- get the author, create a book object, and add to the library array
 }
