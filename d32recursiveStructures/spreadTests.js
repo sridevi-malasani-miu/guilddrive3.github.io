@@ -28,7 +28,7 @@ describe("spread operator tests", function () {
         const oldArr = [1, 2, 3];
         const newArr = copyArray(oldArr);
         assert.deepEqual(newArr, oldArr);
-        oldArr.push[4];
+        newArr.push(4);
         assert.deepEqual(oldArr, [1, 2, 3]);
     });
 
